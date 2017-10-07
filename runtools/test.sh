@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Usage from within vim:
+# :set makeprg=../runtools/test.sh\ %
+
 SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
 ROOT_DIR="$( readlink -fn ${SCRIPT_BASE}/../ )"
 TEST_RUNNER=${ROOT_DIR}/../tools/HardwareSimulator.sh
