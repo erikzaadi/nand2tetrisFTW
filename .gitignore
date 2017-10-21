@@ -1,3 +1,4 @@
 *.out
 *.zip
+*.hack
 .DS_Store
